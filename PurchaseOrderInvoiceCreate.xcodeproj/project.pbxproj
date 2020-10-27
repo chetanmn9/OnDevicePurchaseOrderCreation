@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61044794253A79E5009A718F /* SupplierAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61044793253A79E5009A718F /* SupplierAddressTableViewCell.swift */; };
+		61044796253A79FC009A718F /* POTableHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61044795253A79FC009A718F /* POTableHeaderTableViewCell.swift */; };
+		61044798253A8E0D009A718F /* ItemsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61044797253A8E0D009A718F /* ItemsListTableViewCell.swift */; };
+		6104479A253A9599009A718F /* TotalPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61044799253A9599009A718F /* TotalPriceTableViewCell.swift */; };
+		6114888C253132F000A32B68 /* PurchaseOrderInvoiceCreate.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 6114888B253132F000A32B68 /* PurchaseOrderInvoiceCreate.xcdatamodel */; };
 		614515E625229533007A5CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614515E525229533007A5CE9 /* AppDelegate.swift */; };
 		614515E825229533007A5CE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614515E725229533007A5CE9 /* SceneDelegate.swift */; };
 		614515EA25229533007A5CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614515E925229533007A5CE9 /* ViewController.swift */; };
 		614515ED25229533007A5CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614515EB25229533007A5CE9 /* Main.storyboard */; };
-		614515F025229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 614515EE25229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodeld */; };
 		614515F225229535007A5CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614515F125229535007A5CE9 /* Assets.xcassets */; };
 		614515F525229535007A5CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614515F325229535007A5CE9 /* LaunchScreen.storyboard */; };
 		6145160025229535007A5CE9 /* PurchaseOrderInvoiceCreateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614515FF25229535007A5CE9 /* PurchaseOrderInvoiceCreateTests.swift */; };
 		6145160B25229535007A5CE9 /* PurchaseOrderInvoiceCreateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145160A25229535007A5CE9 /* PurchaseOrderInvoiceCreateUITests.swift */; };
+		6145163425236BA8007A5CE9 /* CreatePurchaseOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145163325236BA8007A5CE9 /* CreatePurchaseOrderViewController.swift */; };
+		615A656F2540CE38007FF2E3 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615A656E2540CE38007FF2E3 /* NavigationBar.swift */; };
+		615AF2BB25261DFC000D458D /* AddItemsToPOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AF2BA25261DFB000D458D /* AddItemsToPOViewController.swift */; };
+		6173FDE8253502000086DB96 /* SelectItemsForPurchaseOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6173FDE7253502000086DB96 /* SelectItemsForPurchaseOrder.swift */; };
+		61879F242539794700624539 /* PONumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61879F232539794700624539 /* PONumberTableViewCell.swift */; };
+		61879F2625397C8D00624539 /* SupplierNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61879F2525397C8D00624539 /* SupplierNameTableViewCell.swift */; };
+		619659FC253FAE130066FE89 /* AddItemsForSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619659FB253FAE130066FE89 /* AddItemsForSelectionViewController.swift */; };
+		619659FE253FB63D0066FE89 /* AddSuppliersForSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619659FD253FB63D0066FE89 /* AddSuppliersForSelectionViewController.swift */; };
+		61965A002540449D0066FE89 /* PurchaseOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619659FF2540449D0066FE89 /* PurchaseOrderTableViewCell.swift */; };
+		61D033DB254825FC0074E176 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D033DA254825FC0074E176 /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61044793253A79E5009A718F /* SupplierAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierAddressTableViewCell.swift; sourceTree = "<group>"; };
+		61044795253A79FC009A718F /* POTableHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POTableHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		61044797253A8E0D009A718F /* ItemsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListTableViewCell.swift; sourceTree = "<group>"; };
+		61044799253A9599009A718F /* TotalPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPriceTableViewCell.swift; sourceTree = "<group>"; };
+		6114888B253132F000A32B68 /* PurchaseOrderInvoiceCreate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = PurchaseOrderInvoiceCreate.xcdatamodel; path = PurchaseOrderInvoiceCreate.xcdatamodeld/PurchaseOrderInvoiceCreate.xcdatamodel; sourceTree = "<group>"; };
 		614515E225229533007A5CE9 /* PurchaseOrderInvoiceCreate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurchaseOrderInvoiceCreate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		614515E525229533007A5CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		614515E725229533007A5CE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		614515E925229533007A5CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		614515EC25229533007A5CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		614515EF25229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PurchaseOrderInvoiceCreate.xcdatamodel; sourceTree = "<group>"; };
 		614515F125229535007A5CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		614515F425229535007A5CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		614515F625229535007A5CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +69,16 @@
 		6145160625229535007A5CE9 /* PurchaseOrderInvoiceCreateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurchaseOrderInvoiceCreateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6145160A25229535007A5CE9 /* PurchaseOrderInvoiceCreateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOrderInvoiceCreateUITests.swift; sourceTree = "<group>"; };
 		6145160C25229535007A5CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6145163325236BA8007A5CE9 /* CreatePurchaseOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePurchaseOrderViewController.swift; sourceTree = "<group>"; };
+		615A656E2540CE38007FF2E3 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		615AF2BA25261DFB000D458D /* AddItemsToPOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsToPOViewController.swift; sourceTree = "<group>"; };
+		6173FDE7253502000086DB96 /* SelectItemsForPurchaseOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectItemsForPurchaseOrder.swift; sourceTree = "<group>"; };
+		61879F232539794700624539 /* PONumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PONumberTableViewCell.swift; sourceTree = "<group>"; };
+		61879F2525397C8D00624539 /* SupplierNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierNameTableViewCell.swift; sourceTree = "<group>"; };
+		619659FB253FAE130066FE89 /* AddItemsForSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsForSelectionViewController.swift; sourceTree = "<group>"; };
+		619659FD253FB63D0066FE89 /* AddSuppliersForSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSuppliersForSelectionViewController.swift; sourceTree = "<group>"; };
+		619659FF2540449D0066FE89 /* PurchaseOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOrderTableViewCell.swift; sourceTree = "<group>"; };
+		61D033DA254825FC0074E176 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +109,11 @@
 		614515D925229533007A5CE9 = {
 			isa = PBXGroup;
 			children = (
+				614515EB25229533007A5CE9 /* Main.storyboard */,
 				614515E425229533007A5CE9 /* PurchaseOrderInvoiceCreate */,
 				614515FE25229535007A5CE9 /* PurchaseOrderInvoiceCreateTests */,
 				6145160925229535007A5CE9 /* PurchaseOrderInvoiceCreateUITests */,
+				6145161825229551007A5CE9 /* Supporting Files */,
 				614515E325229533007A5CE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,14 +131,24 @@
 		614515E425229533007A5CE9 /* PurchaseOrderInvoiceCreate */ = {
 			isa = PBXGroup;
 			children = (
-				614515E525229533007A5CE9 /* AppDelegate.swift */,
-				614515E725229533007A5CE9 /* SceneDelegate.swift */,
 				614515E925229533007A5CE9 /* ViewController.swift */,
-				614515EB25229533007A5CE9 /* Main.storyboard */,
+				619659FF2540449D0066FE89 /* PurchaseOrderTableViewCell.swift */,
+				6145163325236BA8007A5CE9 /* CreatePurchaseOrderViewController.swift */,
+				615AF2BA25261DFB000D458D /* AddItemsToPOViewController.swift */,
+				61879F232539794700624539 /* PONumberTableViewCell.swift */,
+				61879F2525397C8D00624539 /* SupplierNameTableViewCell.swift */,
+				61044793253A79E5009A718F /* SupplierAddressTableViewCell.swift */,
+				61044795253A79FC009A718F /* POTableHeaderTableViewCell.swift */,
+				61044797253A8E0D009A718F /* ItemsListTableViewCell.swift */,
+				61044799253A9599009A718F /* TotalPriceTableViewCell.swift */,
+				6173FDE7253502000086DB96 /* SelectItemsForPurchaseOrder.swift */,
+				619659FB253FAE130066FE89 /* AddItemsForSelectionViewController.swift */,
+				619659FD253FB63D0066FE89 /* AddSuppliersForSelectionViewController.swift */,
+				6114888B253132F000A32B68 /* PurchaseOrderInvoiceCreate.xcdatamodel */,
+				615A656E2540CE38007FF2E3 /* NavigationBar.swift */,
+				61D033DA254825FC0074E176 /* NotificationView.swift */,
 				614515F125229535007A5CE9 /* Assets.xcassets */,
-				614515F325229535007A5CE9 /* LaunchScreen.storyboard */,
 				614515F625229535007A5CE9 /* Info.plist */,
-				614515EE25229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodeld */,
 			);
 			path = PurchaseOrderInvoiceCreate;
 			sourceTree = "<group>";
@@ -129,6 +169,16 @@
 				6145160C25229535007A5CE9 /* Info.plist */,
 			);
 			path = PurchaseOrderInvoiceCreateUITests;
+			sourceTree = "<group>";
+		};
+		6145161825229551007A5CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				614515E525229533007A5CE9 /* AppDelegate.swift */,
+				614515E725229533007A5CE9 /* SceneDelegate.swift */,
+				614515F325229535007A5CE9 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +312,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61044798253A8E0D009A718F /* ItemsListTableViewCell.swift in Sources */,
+				6114888C253132F000A32B68 /* PurchaseOrderInvoiceCreate.xcdatamodel in Sources */,
+				61965A002540449D0066FE89 /* PurchaseOrderTableViewCell.swift in Sources */,
+				61044794253A79E5009A718F /* SupplierAddressTableViewCell.swift in Sources */,
+				6104479A253A9599009A718F /* TotalPriceTableViewCell.swift in Sources */,
+				6173FDE8253502000086DB96 /* SelectItemsForPurchaseOrder.swift in Sources */,
+				61044796253A79FC009A718F /* POTableHeaderTableViewCell.swift in Sources */,
 				614515EA25229533007A5CE9 /* ViewController.swift in Sources */,
+				61879F2625397C8D00624539 /* SupplierNameTableViewCell.swift in Sources */,
 				614515E625229533007A5CE9 /* AppDelegate.swift in Sources */,
+				619659FC253FAE130066FE89 /* AddItemsForSelectionViewController.swift in Sources */,
+				6145163425236BA8007A5CE9 /* CreatePurchaseOrderViewController.swift in Sources */,
 				614515E825229533007A5CE9 /* SceneDelegate.swift in Sources */,
-				614515F025229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodeld in Sources */,
+				615AF2BB25261DFC000D458D /* AddItemsToPOViewController.swift in Sources */,
+				619659FE253FB63D0066FE89 /* AddSuppliersForSelectionViewController.swift in Sources */,
+				61879F242539794700624539 /* PONumberTableViewCell.swift in Sources */,
+				615A656F2540CE38007FF2E3 /* NavigationBar.swift in Sources */,
+				61D033DB254825FC0074E176 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +420,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,6 +481,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -594,19 +660,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		614515EE25229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				614515EF25229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodel */,
-			);
-			currentVersion = 614515EF25229533007A5CE9 /* PurchaseOrderInvoiceCreate.xcdatamodel */;
-			path = PurchaseOrderInvoiceCreate.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 614515DA25229533007A5CE9 /* Project object */;
 }

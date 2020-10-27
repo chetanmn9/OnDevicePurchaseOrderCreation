@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDItemList" representedClassName="CDItemList" syncable="YES" codeGenerationType="class">
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="unitPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CDItems" representedClassName="CDItems" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="unitPrice" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="itemsToPO" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDPurchaseOrder" inverseName="items" inverseEntity="CDPurchaseOrder"/>
+    </entity>
+    <entity name="CDPurchaseOrder" representedClassName="CDPurchaseOrder" syncable="YES" codeGenerationType="class">
+        <attribute name="deliveryDate" optional="YES" attributeType="String"/>
+        <attribute name="deliveryNote" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="issueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="purchaseOrderNumber" optional="YES" attributeType="String"/>
+        <attribute name="supplierAddress" optional="YES" attributeType="String"/>
+        <attribute name="supplierID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="supplierName" optional="YES" attributeType="String"/>
+        <attribute name="uploaded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDItems" inverseName="itemsToPO" inverseEntity="CDItems"/>
+    </entity>
+    <entity name="CDSupplierList" representedClassName="CDSupplierList" syncable="YES" codeGenerationType="class">
+        <attribute name="supplierAddress" optional="YES" attributeType="String"/>
+        <attribute name="supplierID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="supplierName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CDItemList" positionX="-432.53125" positionY="-1838695.37109375" width="128" height="88"/>
+        <element name="CDItems" positionX="-247.875" positionY="-1838717.90625" width="128" height="163"/>
+        <element name="CDPurchaseOrder" positionX="-85.171875" positionY="-1838581.80078125" width="128" height="193"/>
+        <element name="CDSupplierList" positionX="-426.18359375" positionY="-1838526.2578125" width="128" height="88"/>
+    </elements>
 </model>
