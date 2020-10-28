@@ -11,6 +11,7 @@ Add New Items for selection in Purchase Order | Add New Supplier for selection i
 Purchase Order header uploaded to SQL Database  |
 ------------ |
 ![](https://github.com/chetanmn9/OnDevicePurchaseOrderCreation/blob/master/App%20Demo/PurchaseOrderHeader.png) |
+
 Purchase Order Items uploaded to SQL Database  |
 ------------ |
 ![](https://github.com/chetanmn9/OnDevicePurchaseOrderCreation/blob/master/App%20Demo/PurchaseOrderItems.png) |
