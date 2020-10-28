@@ -16,10 +16,10 @@ Purchase Order Items uploaded to SQL Database  |
 ------------ |
 ![](https://github.com/chetanmn9/OnDevicePurchaseOrderCreation/blob/master/App%20Demo/PurchaseOrderItems.png) |
 
-This App allows users to create purchase orders on their devices.  This app can be used on site where a contractor can generate a purchase order, assign a desired supplier and add the required items. Once the purchase order is created it can be uploaded to a MySQL database for further admin work by other stakeholders.
+This App allows users to create purchase orders on their devices.  This app can be used on site where a contractor can generate a purchase order, assign a desired supplier and add the required items. Once the purchase order is created it can be uploaded to a SQL database for further admin work by other stakeholders.
 
 * Core Data Database is used for storing purchase orders, Items in a purchase order, item pricing and supplier information.
 *	Purchase order and items added in purchase order are maintained as two different entities with one-to-many relationship.
 *	All purchase orders are displayed as a table view – with PO number, supplier name and PO created date available at a glance.
-* Each Purchase Order when tapped, navigates to next screen to add items to the PO from a picker.
-*	A php script is called to upload the purchase order to the SQL Database. Once a purchase order is uploaded, user gets a confirmation notification and the upload button is disable. Upload status is displayed for each Purchase Order.
+* Each Purchase Order when tapped, navigates to the next screen to add items to the PO from a picker.
+*	A php script is called to upload the purchase order to the SQL Database. Once a purchase order is uploaded, user gets a confirmation notification and the upload button is disabled. Upload status is displayed for each Purchase Order.
