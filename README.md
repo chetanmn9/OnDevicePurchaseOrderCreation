@@ -8,6 +8,13 @@ Add New Items for selection in Purchase Order | Add New Supplier for selection i
 ------------ | -------------
 ![](https://github.com/chetanmn9/OnDevicePurchaseOrderCreation/blob/master/App%20Demo/Demo_Add_Items.gif) | ![](https://github.com/chetanmn9/OnDevicePurchaseOrderCreation/blob/master/App%20Demo/Demo_Add_Suppliers.gif)
 
+Purchase Order header uploaded to SQL Database  |
+------------ |
+![](https://github.com/chetanmn9/OnDevicePurchaseOrderCreation/blob/master/App%20Demo/PurchaseOrderHeader.png) |
+Purchase Order Items uploaded to SQL Database  |
+------------ |
+![](https://github.com/chetanmn9/OnDevicePurchaseOrderCreation/blob/master/App%20Demo/PurchaseOrderItems.png) |
+
 This App allows users to create purchase orders on their devices.  This app can be used on site where a contractor can generate a purchase order, assign a desired supplier and add the required items. Once the purchase order is created it can be uploaded to a MySQL database for further admin work by other stakeholders.
 
 * Core Data Database is used for storing purchase orders, Items in a purchase order, item pricing and supplier information.
