@@ -23,17 +23,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let purchaseOrdercell =  POTableView.dequeueReusableCell(withIdentifier: "PurchaseOrderCell", for: indexPath)
         
+        //if purchaseOrderDetails?.first?.purchaseOrderNumber != nil {
         if let purchaseOrderNumberCell = purchaseOrdercell as? PurchaseOrderTableViewCell {
             
             purchaseOrderNumberCell.purchaseOrderNumber.text = self.purchaseOrderDetails![indexPath.row].purchaseOrderNumber
             purchaseOrderNumberCell.supplierName.text = self.purchaseOrderDetails![indexPath.row].supplierName
-            purchaseOrderNumberCell.dateCreated.text = "Created on: " + String((self.purchaseOrderDetails![indexPath.row].issueDate?.description.prefix(10))!)
+            purchaseOrderNumberCell.dateCreated.text = "Created on: " + String((self.purchaseOrderDetails![indexPath.row].issueDate?.description.prefix(10) ?? "No POs"))
             if self.purchaseOrderDetails![indexPath.row].uploaded == true {
                 purchaseOrderNumberCell.uploadStatus.isEnabled = false
                 purchaseOrderNumberCell.uploadStatus.setTitle("Uploaded ✅", for: .normal)
                 purchaseOrderNumberCell.uploadStatus.setTitleColor(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), for: .normal)
                 purchaseOrderNumberCell.uploadStatus.backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
-            } else {
+            } else if self.purchaseOrderDetails![indexPath.row].uploaded == false {
                 purchaseOrderNumberCell.uploadStatus.isEnabled = true
                 purchaseOrderNumberCell.uploadStatus.titleLabel?.textAlignment = .center
                 purchaseOrderNumberCell.uploadStatus.titleLabel?.lineBreakMode = .byWordWrapping
@@ -44,6 +45,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 purchaseOrderNumberCell.uploadStatus.backgroundColor = #colorLiteral(red: 0.1019607857, green: 0.2784313858, blue: 0.400000006, alpha: 1)
             }
         }
+        //}
         return purchaseOrdercell
         
     }

@@ -41,7 +41,7 @@ func notification(message: String, viewSender: UIView, window: UIWindow?) {
             viewSender.addSubview(uploadLabel)
         }
         UIView.animate(withDuration: 0, animations: {
-            let bound = CGRect(x: 0, y: 0, width: 400, height: 820)
+            let bound = CGRect(x: 0, y: 0, width: 450, height: 820)
             notificationBackground.frame = bound
             uploadedNotification.frame = CGRect(x: 0, y: 0, width: 220, height: 100)
             uploadLabel.frame = CGRect(x: 0, y: 0, width: 220, height: 75)
